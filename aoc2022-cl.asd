@@ -1,11 +1,12 @@
 (in-package :asdf-user)
 
 (defsystem #:aoc2022-cl
-  :description "hello-lisp: a sample Lisp system."
+  :description "Advent Of Code 2022"
   :version "0.0.1"
-  :author "Joe User <joe@example.com>"
+  :author "Omar Bassam"
   :licence "Public Domain"
   :depends-on (:cl-ppcre :alexandria)
   :components
   ((:module "src"
-    :components ((:file "day01")))))
+    :components ((:file "day01")
+                 (:file "day02")))))
