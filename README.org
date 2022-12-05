@@ -1,0 +1,70 @@
+#+title: Advent of Code 2022 in Common Lisp
+#+author: Omar Bassam
+
+* Advent of Code 2022 in Common Lisp.
+
+This is a repository for my solutions for the [[https://adventofcode.com/2022][Advent of Code 2022]] in [[https://common-lisp.net/][Common Lisp]].
+For the Clojure Version click [[https://github.com/omarbassam88/aoc2022-clj][here]].
+
+** Requirements
+
+- [[https://www.sbcl.org/][SBCL]] (not tested on other implemenntations)
+- [[https://www.quicklisp.org/beta/][Quicklisp]]
+- [[https://www.gnu.org/software/emacs/][Emacs]] with [[https://github.com/joaotavora/sly][SLY]] (Optional)
+  
+** Development Setup
+
+Clone the repository and run (connect) to the REPL from the root directory.
+Inside the REPL run the following code:
+
+#+begin_src lisp
+(pushnew (uiop:getcwd) ql:*local-project-directories*)
+
+(ql:quickload :aoc2022-cl)
+#+end_src
+
+Then you can open the lisp file for the day you want to check its solution and simply run the =main= function in that file.
+
+#+begin_src lisp
+(in-package :aoc2022.day01)
+(main)
+#+end_src
+
+** Progress
+
+- [X] Day 01
+- [X] Day 02
+- [X] Day 03
+- [X] Day 04
+- [ ] Day 05
+- [ ] Day 06
+- [ ] Day 07
+- [ ] Day 08
+- [ ] Day 09
+- [ ] Day 10
+- [ ] Day 11
+- [ ] Day 12
+- [ ] Day 13
+- [ ] Day 14
+- [ ] Day 15
+- [ ] Day 16
+- [ ] Day 17
+- [ ] Day 18
+- [ ] Day 19
+- [ ] Day 20
+- [ ] Day 21
+- [ ] Day 22
+- [ ] Day 23
+- [ ] Day 24
+- [ ] Day 25
+- [ ] Day 26
+- [ ] Day 27
+- [ ] Day 28
+- [ ] Day 29
+- [ ] Day 30
+
+** Helpful Resources
+
+- [[https://www.youtube.com/playlist?list=PLGRzA3BHMbu9csPs8G6RQdd3_8UGsiM7Q][Stefano Rodighiero Advent of Code 2022]]
+- [[https://www.youtube.com/playlist?list=PLdSfLyn35ej-UL9AuxUvoFXerHac4RYnH][Nikita Prokopov Advent of Code]]
+
