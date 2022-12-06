@@ -36,8 +36,8 @@ Then you can open the lisp file for the day you want to check its solution and s
 - [X] Day 02
 - [X] Day 03
 - [X] Day 04
-- [ ] Day 05
-- [ ] Day 06
+- [X] Day 05
+- [X] Day 06
 - [ ] Day 07
 - [ ] Day 08
 - [ ] Day 09
